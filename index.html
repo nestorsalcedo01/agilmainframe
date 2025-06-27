@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Modernización: Agilidad para IBM Z</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js" defer></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* slate-50 */
+        }
+        .gradient-text {
+            background: -webkit-linear-gradient(45deg, #3b82f6, #1e40af);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        [x-cloak] { display: none !important; }
+    </style>
+</head>
+<body class="text-slate-700">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <svg class="h-8 w-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M4 19V5a2 2 0 012-2h12a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <div class="hidden md:block">
+                        <div class="ml-10 flex items-baseline space-x-4">
+                            <a href="#desafio" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">El Desafío</a>
+                            <a href="#solucion" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">La Solución</a>
+                            <a href="#herramientas" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Herramientas</a>
+                            <a href="#planes" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Planes Maestros</a>
+                            <a href="#roi" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">ROI</a>
+                             <a href="#roadmap" class="text-slate-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Hoja de Ruta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900">
+                    <span class="block">Agilidad <span class="gradient-text">Cloud</span> en tu</span>
+                    <span class="block text-blue-700">Mainframe IBM Z</span>
+                </h1>
+                <p class="mt-6 max-w-2xl mx-auto text-lg text-slate-600">
+                    Un plan maestro para transformar el aprovisionamiento de LPARs de un proceso manual de meses a un flujo de trabajo automatizado, gobernado y bajo demanda que se ejecuta en minutos.
+                </p>
+                <div class="mt-8 flex justify-center">
+                    <a href="#desafio" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition-all">
+                        Iniciar Investigación
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section: The Challenge -->
+        <section id="desafio" class="py-20 bg-slate-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-extrabold text-slate-900">El Imperativo de la Agilidad</h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
+                        La tensión entre la fiabilidad del mainframe y la agilidad moderna es un obstáculo para la innovación.
+                    </p>
+                </div>
+                <div class="mt-12 bg-white p-8 rounded-2xl shadow-lg border border-slate-200">
+                    <h3 class="text-2xl font-bold text-amber-600 flex items-center">
+                        <svg class="h-8 w-8 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
+                        El Cuello de Botella Heredado
+                    </h3>
+                    <p class="mt-4 text-slate-600">
+                        El aprovisionamiento manual y lento de LPARs es un freno para la transformación digital. La complejidad, la falta de documentación, la brecha de habilidades y la interdependencia de componentes crean un ciclo de retrasos y costos elevados que posiciona al mainframe como un obstáculo en lugar de un facilitador.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: The Solution -->
+        <section id="solucion" class="py-20">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                     <h2 class="text-3xl font-extrabold text-slate-900">El Cambio de Paradigma: IaC en IBM Z</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-lg text-slate-600">
+                        La solución es pasar de la intervención manual a un modelo de <strong class="font-semibold text-blue-600">Infraestructura como Código (IaC)</strong>. El ecosistema de IBM Z ha evolucionado para adoptar este paradigma, proporcionando un conjunto de herramientas modernas que trabajan en conjunto para ofrecer la agilidad deseada.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section: Tools Deep Dive -->
+        <section id="herramientas" class="py-20 bg-slate-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">
+                        El Ecosistema de Automatización
+                    </h2>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg text-slate-600">
+                        Un análisis profundo de las cuatro herramientas clave que habilitan la agilidad en IBM Z.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto" x-data="{ open: 'zosmf' }" x-cloak>
+                    <!-- Tool: z/OSMF -->
+                    <div class="border-b border-slate-200">
+                        <button @click="open = (open === 'zosmf' ? '' : 'zosmf')" class="w-full flex justify-between items-center py-6 text-left">
+                            <h3 class="text-xl font-bold text-slate-800">1. z/OSMF: La Piedra Angular</h3>
+                            <svg :class="{'rotate-180': open === 'zosmf'}" class="w-6 h-6 text-blue-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div x-show="open === 'zosmf'" x-collapse class="pb-6">
+                            <p class="text-slate-600 mb-4">Actúa como el marco de gestión fundamental y la capa de API indispensable. Es un elemento base de z/OS que expone los servicios del sistema de una manera moderna y consumible, sirviendo como un "motor de gobernanza" para la automatización.</p>
+                            <ul class="list-disc list-inside space-y-2 text-slate-600 pl-4">
+                                <li><strong>Función Clave:</strong> Proveer APIs REST para trabajos, datasets, y consolas, permitiendo que herramientas externas interactúen con z/OS.</li>
+                                <li><strong>Aprovisionamiento:</strong> A través de Cloud Provisioning & Management (CP&M), permite crear catálogos de autoservicio para middleware (CICS, Db2).</li>
+                                <li><strong>Beneficio:</strong> Abstrae la complejidad, permitiendo el autoservicio gobernado. Los administradores definen plantillas, y los usuarios/scripts las consumen.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tool: Ansible -->
+                    <div class="border-b border-slate-200">
+                        <button @click="open = (open === 'ansible' ? '' : 'ansible')" class="w-full flex justify-between items-center py-6 text-left">
+                            <h3 class="text-xl font-bold text-slate-800">2. Ansible: El Motor de Orquestación</h3>
+                             <svg :class="{'rotate-180': open === 'ansible'}" class="w-6 h-6 text-blue-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div x-show="open === 'ansible'" x-collapse class="pb-6" style="display: none;">
+                            <p class="text-slate-600 mb-4">Funciona como el motor de orquestación de nivel empresarial. Su rol es conectar y automatizar flujos de trabajo de extremo a extremo que abarcan el mainframe, sistemas distribuidos, la nube y dispositivos de red.</p>
+                             <ul class="list-disc list-inside space-y-2 text-slate-600 pl-4">
+                                <li><strong>Función Clave:</strong> Utiliza "Colecciones" (`ibm_zhmc`, `ibm_zos_core`, `ibm_zosmf`) para interactuar con la HMC, z/OS y z/OSMF.</li>
+                                <li><strong>Aprovisionamiento:</strong> Orquesta todo el pipeline: crea la LPAR vía HMC, configura el SO base, y luego le pide a z/OSMF que despliegue el software.</li>
+                                <li><strong>Beneficio:</strong> Proporciona un único lenguaje de automatización (YAML) para toda la empresa, integrando el mainframe en los flujos de DevOps existentes.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Tool: Zowe -->
+                    <div class="border-b border-slate-200">
+                        <button @click="open = (open === 'zowe' ? '' : 'zowe')" class="w-full flex justify-between items-center py-6 text-left">
+                            <h3 class="text-xl font-bold text-slate-800">3. Zowe: La Interfaz Humana</h3>
+                             <svg :class="{'rotate-180': open === 'zowe'}" class="w-6 h-6 text-blue-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div x-show="open === 'zowe'" x-collapse class="pb-6" style="display: none;">
+                            <p class="text-slate-600 mb-4">Proporciona un marco de código abierto y una interfaz moderna (CLI, APIs, UI de escritorio) que reduce la curva de aprendizaje y hace que el mainframe sea más accesible para la nueva generación de desarrolladores.</p>
+                             <ul class="list-disc list-inside space-y-2 text-slate-600 pl-4">
+                                <li><strong>Función Clave:</strong> La CLI de Zowe permite interactuar con z/OS desde VS Code o scripts locales, eliminando la necesidad de una terminal 3270 para muchas tareas.</li>
+                                <li><strong>Aprovisionamiento:</strong> No aprovisiona, sino que consume y valida. Un desarrollador usa Zowe para verificar que el entorno aprovisionado por Ansible funciona correctamente.</li>
+                                <li><strong>Beneficio:</strong> Aborda la brecha de habilidades haciendo que la plataforma sea atractiva y productiva para talentos con experiencia en la nube y DevOps.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Tool: System Automation -->
+                    <div class="border-b border-slate-200">
+                         <button @click="open = (open === 'sa' ? '' : 'sa')" class="w-full flex justify-between items-center py-6 text-left">
+                            <h3 class="text-xl font-bold text-slate-800">4. System Automation: El Guardián de Producción</h3>
+                             <svg :class="{'rotate-180': open === 'sa'}" class="w-6 h-6 text-blue-600 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </button>
+                        <div x-show="open === 'sa'" x-collapse class="pb-6" style="display: none;">
+                            <p class="text-slate-600 mb-4">Ofrece el motor de automatización basado en políticas necesario para garantizar la alta disponibilidad, la resiliencia y la gestión operativa (Day-2) de los entornos dinámicamente aprovisionados en producción.</p>
+                             <ul class="list-disc list-inside space-y-2 text-slate-600 pl-4">
+                                <li><strong>Función Clave:</strong> Utiliza una política para definir el estado deseado de los recursos (LPARs, aplicaciones) y trabaja para mantener ese estado, reiniciando o moviendo cargas de trabajo si fallan.</li>
+                                <li><strong>Aprovisionamiento:</strong> Como paso final, Ansible le dice a SA que "adopte" el nuevo recurso y lo añada a su política de gestión de alta disponibilidad.</li>
+                                <li><strong>Beneficio:</strong> Hace que la agilidad sea sostenible y segura para producción, asegurando que los entornos bajo demanda sean también resilientes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Master Plans -->
+        <section id="planes" class="py-20 bg-white" x-data="{ tab: 'pipeline' }">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-extrabold text-slate-900">Planes Maestros Integrados</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-lg text-slate-600">
+                        Combinando las herramientas, es posible diseñar "blueprints" que materialicen el concepto de "LPAR-as-a-Service".
+                    </p>
+                </div>
+                <div class="mt-12">
+                    <div class="flex justify-center border-b border-slate-300">
+                        <button @click="tab = 'pipeline'" :class="{'border-blue-600 text-blue-600': tab === 'pipeline', 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-400': tab !== 'pipeline'}" class="px-6 py-3 font-semibold border-b-2 transition-colors">
+                            Pipeline Automatizado
+                        </button>
+                        <button @click="tab = 'portal'" :class="{'border-blue-600 text-blue-600': tab === 'portal', 'border-transparent text-slate-500 hover:text-slate-700 hover:border-slate-400': tab !== 'portal'}" class="px-6 py-3 font-semibold border-b-2 transition-colors">
+                            Portal de Autoservicio
+                        </button>
+                    </div>
+                    <div class="mt-8">
+                        <!-- Pipeline Tab -->
+                        <div x-show="tab === 'pipeline'">
+                            <div class="bg-slate-50 p-8 rounded-xl shadow-lg border border-slate-200">
+                                <h3 class="text-2xl font-bold text-slate-900">Plan 1: El Pipeline de Aprovisionamiento Totalmente Automatizado</h3>
+                                <p class="mt-4 text-slate-600">Este plan utiliza Ansible como el orquestador principal para ejecutar un pipeline de extremo a extremo. Un único playbook maestro invoca una serie de roles para pasar de una solicitud a una LPAR totalmente funcional y gestionada.</p>
+                                <div class="mt-6 flow-root">
+                                    <ul role="list" class="-mb-8">
+                                        <!-- Step 1 -->
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-slate-200" aria-hidden="true"></span>
+                                                <div class="relative flex space-x-3">
+                                                    <div><span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-slate-50 text-white font-bold">1</span></div>
+                                                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                                                        <div><p class="text-sm text-slate-500">Definición LPAR <strong class="font-medium text-slate-900">Ansible + HMC</strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Step 2 -->
+                                        <li>
+                                            <div class="relative pb-8">
+                                                <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-slate-200" aria-hidden="true"></span>
+                                                <div class="relative flex space-x-3">
+                                                    <div><span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-slate-50 text-white font-bold">2</span></div>
+                                                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                                                         <div><p class="text-sm text-slate-500">Activación y Config. SO <strong class="font-medium text-slate-900">Ansible + Core</strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Step 3 -->
+                                        <li>
+                                             <div class="relative pb-8">
+                                                <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-slate-200" aria-hidden="true"></span>
+                                                <div class="relative flex space-x-3">
+                                                    <div><span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-slate-50 text-white font-bold">3</span></div>
+                                                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                                                         <div><p class="text-sm text-slate-500">Aprovisionamiento Middleware <strong class="font-medium text-slate-900">Ansible + z/OSMF</strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                         <!-- Step 4 -->
+                                        <li>
+                                             <div class="relative pb-8">
+                                                <span class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-slate-200" aria-hidden="true"></span>
+                                                <div class="relative flex space-x-3">
+                                                    <div><span class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center ring-8 ring-slate-50 text-white font-bold">4</span></div>
+                                                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                                                         <div><p class="text-sm text-slate-500">Inscripción Operativa <strong class="font-medium text-slate-900">Ansible + SA</strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <!-- Step 5 -->
+                                        <li>
+                                             <div class="relative">
+                                                <div class="relative flex space-x-3">
+                                                    <div><span class="h-8 w-8 rounded-full bg-green-500 flex items-center justify-center ring-8 ring-slate-50 text-white"><svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg></span></div>
+                                                    <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
+                                                         <div><p class="text-sm text-slate-500">Validación Final <strong class="font-medium text-slate-900">Ansible + Zowe</strong></p></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portal Tab -->
+                        <div x-show="tab === 'portal'" style="display: none;">
+                             <div class="bg-slate-50 p-8 rounded-xl shadow-lg border border-slate-200">
+                                <h3 class="text-2xl font-bold text-slate-900">Plan 2: El Portal de Autoservicio en la Nube</h3>
+                                <p class="mt-4 text-slate-600">Este plan eleva la automatización al siguiente nivel, transformando el pipeline en un elemento de catálogo consumible desde una plataforma de nube como <strong class="font-semibold">Red Hat OpenShift</strong>. Esto se logra a través del <strong class="font-semibold text-blue-600">IBM z/OS Cloud Broker</strong>.</p>
+                                 <ul class="mt-6 space-y-4">
+                                    <li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div><p class="ml-3 text-slate-600"><strong class="font-semibold text-slate-800">Experiencia sin Fricción:</strong> El desarrollador aprovisiona desde un portal que ya conoce.</p></li>
+                                    <li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div><p class="ml-3 text-slate-600"><strong class="font-semibold text-slate-800">Gobernanza Centralizada:</strong> El equipo de mainframe mantiene el control total a través de las plantillas de z/OSMF.</p></li>
+                                    <li class="flex items-start"><div class="flex-shrink-0"><svg class="h-6 w-6 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" /></svg></div><p class="ml-3 text-slate-600"><strong class="font-semibold text-slate-800">Integración Híbrida:</strong> Facilita la conexión entre aplicaciones en contenedores y servicios en el mainframe.</p></li>
+                                </ul>
+                                 <div class="mt-6 bg-blue-50 p-6 rounded-lg">
+                                    <p class="text-blue-800"><strong class="font-semibold">Patrón Clave: "Definir una vez, consumir en cualquier lugar"</strong>. La misma plantilla de z/OSMF puede ser consumida por Ansible o por el Cloud Broker, maximizando el ROI y asegurando la consistencia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: ROI -->
+        <section id="roi" class="py-20 bg-slate-100">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-extrabold text-slate-900">El Caso de Negocio: ROI de la Automatización</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-lg text-slate-600">
+                        La automatización no es solo una mejora técnica, es una iniciativa financiera sólida.
+                    </p>
+                </div>
+                <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200">
+                        <p class="text-5xl font-extrabold text-blue-600">667%</p>
+                        <p class="mt-2 text-lg font-medium text-slate-800">ROI a 5 años</p>
+                        <p class="text-sm text-slate-500">Proyectado por IDC para Ansible Automation Platform.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200">
+                        <p class="text-5xl font-extrabold text-blue-600">30%</p>
+                        <p class="mt-2 text-lg font-medium text-slate-800">Más Eficiencia</p>
+                        <p class="text-sm text-slate-500">En la gestión de infraestructura de TI.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md border border-slate-200">
+                        <p class="text-5xl font-extrabold text-blue-600">2,700</p>
+                        <p class="mt-2 text-lg font-medium text-slate-800">Horas/Año Ahorradas</p>
+                        <p class="text-sm text-slate-500">En un caso de uso de gestión de certificados de z/OS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section: Roadmap -->
+        <section id="roadmap" class="py-20 bg-white">
+            <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+                 <div class="lg:text-center">
+                    <h2 class="text-base text-blue-600 font-semibold tracking-wide uppercase">Implementación</h2>
+                    <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+                        Una Hoja de Ruta hacia la Agilidad
+                    </p>
+                    <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+                        Un enfoque por fases, iterativo, para construir capacidades, demostrar valor y aprender a lo largo del camino.
+                    </p>
+                </div>
+
+                <div class="mt-12">
+                    <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+                        <div class="relative">
+                            <dt>
+                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                                    <span class="font-bold text-xl">1</span>
+                                </div>
+                                <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Fase 1: Configuración Fundamental</p>
+                            </dt>
+                            <dd class="mt-2 ml-16 text-base text-gray-500">Instalar y asegurar z/OSMF, Python, ZOAU y Ansible. Construir la base sólida.</dd>
+                        </div>
+                        <div class="relative">
+                            <dt>
+                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                                    <span class="font-bold text-xl">2</span>
+                                </div>
+                                <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Fase 2: Automatización Central</p>
+                            </dt>
+                            <dd class="mt-2 ml-16 text-base text-gray-500">Automatizar tareas de bajo riesgo con `ibm_zos_core` para ganar experiencia y demostrar victorias tempranas.</dd>
+                        </div>
+                        <div class="relative">
+                            <dt>
+                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                                    <span class="font-bold text-xl">3</span>
+                                </div>
+                                <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Fase 3: Aprovisionamiento de Software</p>
+                            </dt>
+                            <dd class="mt-2 ml-16 text-base text-gray-500">Desarrollar plantillas en z/OSMF y orquestarlas con Ansible para un despliegue de middleware fiable.</dd>
+                        </div>
+                        <div class="relative">
+                            <dt>
+                                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-600 text-white">
+                                    <span class="font-bold text-xl">4</span>
+                                </div>
+                                <p class="ml-16 text-lg leading-6 font-bold text-gray-900">Fase 4: Automatización Completa de LPAR</p>
+                            </dt>
+                            <dd class="mt-2 ml-16 text-base text-gray-500">Integrar todo con la HMC (`ibm_zhmc`) para lograr un pipeline funcional de "LPAR-as-a-Service".</dd>
+                        </div>
+                    </dl>
+                </div>
+                 <div class="mt-12 bg-slate-100 p-8 rounded-2xl shadow-inner">
+                    <h3 class="text-2xl font-bold text-blue-700">El Imperativo Cultural</h3>
+                    <p class="mt-4 text-slate-600">La tecnología no es suficiente. El éxito requiere una evolución cultural hacia una mentalidad <strong class="font-semibold">DevOps</strong>, fomentando la colaboración, invirtiendo en habilidades y rompiendo los silos organizacionales para integrar el mainframe en la estrategia de TI de toda la empresa.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 text-center text-slate-400">
+            <p>&copy; 2024 Portal de Investigación de Agilidad en Mainframe. Contenido generado para demostración.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
